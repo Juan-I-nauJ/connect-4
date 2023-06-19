@@ -1,0 +1,29 @@
+#victory-control{
+    text-align: center;
+    border-top: 1px solid black;
+    color: rebeccapurple;
+    font-size:larger;
+    width: 50%;
+    margin: 2em auto;
+}
+
+#victory-control2{
+    text-align: center;
+    border: 5px groove rebeccapurple;
+    background-color:darkkhaki;
+    color: rebeccapurple;
+    font-size:x-large;
+    width: 50%;
+    margin: 2em auto;
+}
+
+#resetStats{
+    text-align: center;
+    padding: 2em;
+    background-color: lightblue;
+    color:black;
+    border: 1px solid aliceblue;
+    border-radius: 15px;
+    font-size:x-large;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+article{
+    text-align: center;
+}
+
+#buttonReset{
+    text-align: center;
+    padding: 2em;
+    background-color:black;
+    color:aliceblue;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size:x-large;
+    cursor: pointer;
+}
+
+
+#buttonControl{
+    margin: auto;
+    cursor: pointer;
+}

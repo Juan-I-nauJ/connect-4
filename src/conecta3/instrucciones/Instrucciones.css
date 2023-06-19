@@ -1,0 +1,24 @@
+#articuloInstrucciones{
+    margin: auto;
+    text-align:center;
+    border: 1px solid black;
+    border-radius: 12%;
+    width: 50%;
+}
+
+#articuloInstrucciones main ol{
+    list-style: none;
+    text-align: center;
+}
+#articuloInstrucciones main ol li{
+    margin-right: 3em;
+}
+
+#articuloInstrucciones main button{
+    padding: 2em;
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+    cursor: pointer;
+}

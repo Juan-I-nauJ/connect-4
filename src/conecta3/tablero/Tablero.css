@@ -1,0 +1,26 @@
+#conecta-4-tabla{
+    border: 1px solid black;
+    background-color: blue;
+    margin: auto;
+    border-spacing: 20px;
+}
+td{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 2em;
+    background-color: white;
+}
+
+.p1{
+    background-color: red;
+}
+.p2{
+    background-color: goldenrod;
+}
+
+#resetBoard{
+    padding: 1em;
+    border: 1px solid black;
+    background: #fabada;
+    cursor: pointer;
+}
