@@ -1,0 +1,16 @@
+#headerAll{
+border-bottom: 1px solid black;
+background-color: lightcyan;
+
+}
+
+#headerAll ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    list-style: none;
+}
+
+#headerAll ul a{
+    margin: 1em; 
+}
