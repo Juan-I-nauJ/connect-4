@@ -16,12 +16,12 @@ export default class Conecta4Full extends Component {
     constructor() {
         //el state mantiene detalles de la partida y sus jugadores, el ref maneja la tabla.
         //rows y columns se pasaran como props al componente de tabla para montarla dinámicamente. Se podrían cambiar y la aplicación
-        //funcionaría igual. Se inician en 7 y 6 porque es lo que pedía el ejercicio.
+        //funcionaría igual. Se inician en 6 y 7 porque es lo que pedía el ejercicio.
         super();
         this.state = { player: 'player1', winner: null, tied: false, totalMatches: 0, victories: 0, gameStarted: false };
         this.tableRef = React.createRef();
-        this.rows = 7;
-        this.columns = 6;
+        this.rows = 6;
+        this.columns = 7;
         
 
     }
@@ -221,7 +221,7 @@ export default class Conecta4Full extends Component {
     };
 
     //esta función comprueba si existe empate. Para haber un empate, el tablero se debe llenar sin haber un ganador.
-    //por la naturaleza del tablero, para comprobar esto sólamente hace falta ver si la primera fila de la tabla ya tiene todas las 
+    //por la naturaleza del tablero, para comprobar esto solamente hace falta ver si la primera fila de la tabla ya tiene todas las 
     //celdas cubiertas, en cuyo caso devolverá verdadero. Se cambia el valor de tied en el state, lo cual entra en juego al hacer
     //update del state en la función paintColumn para elegir un ganador.
     checkTie = () => {

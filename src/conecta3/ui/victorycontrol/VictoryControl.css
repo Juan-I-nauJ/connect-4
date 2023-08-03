@@ -1,8 +1,9 @@
 #victory-control{
     text-align: center;
     border-top: 1px solid black;
-    color: rebeccapurple;
-    font-size:larger;
+    color:darkolivegreen;
+    font-size:x-large;
+    font-weight:bold;
     width: 50%;
     margin: 2em auto;
 }
